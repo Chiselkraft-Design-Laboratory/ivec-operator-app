@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ThemeFox from "./themefox";
 import { CssBaseline } from "@material-ui/core";
+import { withDataGrid } from "./datagrid";
 
 class IvecOperator extends Component {
   constructor(props) {
@@ -19,4 +20,4 @@ class IvecOperator extends Component {
   }
 }
 
-export default IvecOperator;
+export default withDataGrid(IvecOperator);
