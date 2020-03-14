@@ -8,6 +8,12 @@ import ZoomOutIcon from "./zoomout";
 import MarkerIcon from "./marker";
 import SearchIcon from "./search";
 
+import CityIcon from "./city";
+import ServiceIcon from "./service";
+import ChargeStationIcon from "./chargestation";
+import ScooterIcon from "./scooter";
+
 export { IvecIcon, VecmoconIcon };
 export { ZoomFitIcon, ZoomInIcon, ZoomOutIcon };
 export { MarkerIcon, SearchIcon };
+export { CityIcon, ServiceIcon, ChargeStationIcon, ScooterIcon };
