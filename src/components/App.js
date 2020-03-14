@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { withDataGrid } from "./datagrid";
 
 class IvecOperator extends Component {
   render() {
@@ -6,4 +7,4 @@ class IvecOperator extends Component {
   }
 }
 
-export default IvecOperator;
+export default withDataGrid(IvecOperator);
